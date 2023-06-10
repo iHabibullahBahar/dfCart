@@ -1,0 +1,76 @@
+{
+  "categories": [
+    {
+      "category_index_no": 1,
+      "category_id": 1,
+      "category_name": "Clothes",
+      "image": "assets/images/categories/icons8-clothes-96.png"
+    },
+    {
+      "category_index_no": 2,
+      "category_id": 2,
+      "category_name": "Confectionery",
+      "image": "assets/images/categories/icons8-confectionery-96.png"
+    },
+    {
+      "category_index_no": 3,
+      "category_id": 3,
+      "category_name": "Jewelry",
+      "image": "assets/images/categories/icons8-jewelry-96.png"
+    },
+    {
+      "category_index_no": 4,
+      "category_id": 4,
+      "category_name": "Laptop",
+      "image": "assets/images/categories/icons8-laptop-with-cursor-96.png"
+    },
+    {
+      "category_index_no": 5,
+      "category_id": 5,
+      "category_name": "House Hold",
+      "image": "assets/images/categories/icons8-mixer-96.png"
+    },
+    {
+      "category_index_no": 6,
+      "category_id": 6,
+      "category_name": "Phone",
+      "image": "assets/images/categories/phone.png"
+    },
+    {
+      "category_index_no": 7,
+      "category_id": 7,
+      "category_name": "Clothes",
+      "image": "assets/images/categories/icons8-clothes-96.png"
+    },
+    {
+      "category_index_no": 8,
+      "category_id": 8,
+      "category_name": "Confectionery",
+      "image": "assets/images/categories/icons8-confectionery-96.png"
+    },
+    {
+      "category_index_no": 9,
+      "category_id": 9,
+      "category_name": "Jewelry",
+      "image": "assets/images/categories/icons8-jewelry-96.png"
+    },
+    {
+      "category_index_no": 10,
+      "category_id": 10,
+      "category_name": "Laptop",
+      "image": "assets/images/categories/icons8-laptop-with-cursor-96.png"
+    },
+    {
+      "category_index_no": 11,
+      "category_id": 11,
+      "category_name": "House Hold",
+      "image": "assets/images/categories/icons8-mixer-96.png"
+    },
+    {
+      "category_index_no": 12,
+      "category_id": 12,
+      "category_name": "Phone",
+      "image": "assets/images/categories/phone.png"
+    }
+  ]
+}

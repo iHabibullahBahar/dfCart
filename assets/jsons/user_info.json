@@ -1,0 +1,20 @@
+{
+  "user_id": "1",
+  "user_name": "Michael Smith",
+  "user_email": "michel2001@gmail.com",
+  "user_phone": "+1234567890",
+"user_addresses":[
+  {
+    "address_id": "1",
+    "address_name": "Home",
+    "address": "123, Lorem Ipsum, Florida, USA",
+    "address_type": "Home Address"
+  },
+  {
+    "address_id": "2",
+    "address_name": "Office",
+    "address": "123, Lorem Ipsum, Florida, USA",
+    "address_type": "Office Address"
+  }
+]
+}
