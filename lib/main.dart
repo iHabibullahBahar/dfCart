@@ -1,3 +1,4 @@
+import 'package:dfcart/screens/order_list_screen/order_list_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'screens/splash_screen/splash_screen.dart';
@@ -21,11 +22,13 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       routes: {
-        "/": (context) => const SplashScreen(),
+        "/": (context) => const OrderListScreen(),
+        //"/": (context) => const SplashScreen(),
         //"/": (context) => ProductDetailsScreen(),
         //"/": (context) => CheckoutScreen(),
         "/productDetails": (context) => ProductDetailsScreen(),
         "/checkout": (context) => CheckoutScreen(),
+        "/orderListScreen": (context) => const OrderListScreen(),
       },
     );
   }

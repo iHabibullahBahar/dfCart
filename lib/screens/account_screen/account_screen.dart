@@ -1,6 +1,8 @@
 import 'package:dfcart/config/config.dart';
 import 'package:dfcart/screens/auth_screen/auth_screen.dart';
 import 'package:dfcart/screens/auth_screen/login_screen.dart';
+import 'package:dfcart/screens/order_list_screen/order_list_screen.dart';
+import 'package:dfcart/utils/routes.dart';
 import 'package:dfcart/widgets/account_screen_widgets/icon_button_widget.dart';
 import 'package:dfcart/widgets/drawer.dart';
 import '../auth_screen/signup_screen.dart';
@@ -72,7 +74,10 @@ class AccountScreen extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           InkWell(
-                            onTap: () {},
+                            onTap: () {
+                              Navigator.pushNamed(
+                                  context, OrderListScreenRoute);
+                            },
                             child: const IconButtonWidget(
                               image: orderIcon,
                               label: "Orders",
