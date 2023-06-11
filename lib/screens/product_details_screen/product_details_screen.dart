@@ -29,49 +29,49 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: backgroundColor,
-      appBar: AppBar(
-        actionsIconTheme: const IconThemeData(
-          color: primaryColor,
-        ),
-        elevation: 0,
-        backgroundColor: backgroundColor,
-        actions: [
-          //---- WishList Icon ----//
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(
-              Icons.favorite_border,
+    return Obx(() {
+      if (productDetailsController.isLoading == true) {
+        return Center(
+          child: SizedBox(
+            height: MediaQuery.of(context).size.height,
+            width: MediaQuery.of(context).size.width,
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                CircularProgressIndicator(),
+              ],
             ),
           ),
-          //---- Share Icon ----//
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(
-              Icons.share,
+        );
+      } else {
+        product = productDetailsController.productDetails;
+        return Scaffold(
+          backgroundColor: backgroundColor,
+          appBar: AppBar(
+            actionsIconTheme: const IconThemeData(
+              color: primaryColor,
             ),
-          ),
-        ],
-      ),
-      body: Obx(() {
-        if (productDetailsController.isLoading == true) {
-          return Center(
-            child: SizedBox(
-              height: MediaQuery.of(context).size.height,
-              width: MediaQuery.of(context).size.width,
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  CircularProgressIndicator(),
-                ],
+            elevation: 0,
+            backgroundColor: backgroundColor,
+            actions: [
+              //---- WishList Icon ----//
+              IconButton(
+                onPressed: () {},
+                icon: const Icon(
+                  Icons.favorite_border,
+                ),
               ),
-            ),
-          );
-        } else {
-          product = productDetailsController.productDetails;
-          return ListView(
+              //---- Share Icon ----//
+              IconButton(
+                onPressed: () {},
+                icon: const Icon(
+                  Icons.share,
+                ),
+              ),
+            ],
+          ),
+          body: ListView(
             children: [
               Container(
                 child: Column(
@@ -399,21 +399,14 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
                 ),
               ),
             ],
-          );
-        }
-      }),
-      bottomNavigationBar: (productDetailsController!.isLoading == true)
-          ? BottomBar(
-              productID: 0,
-              onBuyNowPressed: () {},
-              onAddToCartPressed: () {},
-            )
-          : BottomBar(
-              productID: product!.id!,
-              onBuyNowPressed: () {},
-              onAddToCartPressed: () {},
-            ),
-      extendBody: true,
-    );
+          ),
+          bottomNavigationBar: BottomBar(
+            productID: product!.id!,
+            onBuyNowPressed: () {},
+            onAddToCartPressed: () {},
+          ),
+        );
+      }
+    });
   }
 }

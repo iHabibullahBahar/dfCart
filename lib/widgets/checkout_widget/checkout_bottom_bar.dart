@@ -1,7 +1,6 @@
 import 'dart:ui';
 
 import 'package:dfcart/config/config.dart';
-import 'package:dfcart/screens/checkout_screen/checkout_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

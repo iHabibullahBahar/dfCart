@@ -99,7 +99,6 @@ class _HomeScreenState extends State<HomeScreen> {
     for (var item in products) {
       loadedAllProducts.add(ProductModel.fromJson(item));
     }
-    print(loadedAllProducts[0].name);
     setState(() {});
   }
 

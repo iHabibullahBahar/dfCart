@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'package:flutter/foundation.dart';
 import 'package:dfcart/models/product_model/product_details_model.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';

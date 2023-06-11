@@ -1,5 +1,4 @@
 import 'package:dfcart/models/product_model/product_model.dart';
-import 'package:dfcart/widgets/home_screen_widges/product_widget.dart';
 import 'package:flutter/material.dart';
 
 class AllProductsWidget extends StatelessWidget {
