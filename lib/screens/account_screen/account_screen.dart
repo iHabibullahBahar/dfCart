@@ -1,10 +1,12 @@
 import 'package:dfcart/config/config.dart';
+import 'package:dfcart/screens/account_screen/profile_screen.dart';
 import 'package:dfcart/screens/auth_screen/auth_screen.dart';
 import 'package:dfcart/screens/auth_screen/login_screen.dart';
 import 'package:dfcart/screens/order_list_screen/order_list_screen.dart';
 import 'package:dfcart/utils/routes.dart';
 import 'package:dfcart/widgets/account_screen_widgets/icon_button_widget.dart';
 import 'package:dfcart/widgets/drawer.dart';
+import 'package:get/get.dart';
 import '../auth_screen/signup_screen.dart';
 import 'package:flutter/material.dart';
 import '../../config/personalize.dart';
@@ -84,7 +86,9 @@ class AccountScreen extends StatelessWidget {
                             ),
                           ),
                           InkWell(
-                            onTap: () {},
+                            onTap: () {
+                              Navigator.pushNamed(context, ProfileScreenRoute);
+                            },
                             child: const IconButtonWidget(
                               image: profileIcon,
                               label: "Profile",

@@ -74,6 +74,7 @@ class OrderItems {
   String? productId;
   String? productName;
   double? productPrice;
+  double? unitPrice;
   int? productQuantity;
   String? productImage;
 
@@ -81,6 +82,7 @@ class OrderItems {
       {this.productId,
       this.productName,
       this.productPrice,
+      this.unitPrice,
       this.productQuantity,
       this.productImage});
 
@@ -88,6 +90,7 @@ class OrderItems {
     productId = json['product_id'];
     productName = json['product_name'];
     productPrice = json['product_price'].toDouble();
+    unitPrice = json['unit_price'].toDouble();
     productQuantity = json['product_quantity'];
     productImage = json['product_image'];
   }
@@ -97,6 +100,7 @@ class OrderItems {
     data['product_id'] = this.productId;
     data['product_name'] = this.productName;
     data['product_price'] = this.productPrice;
+    data['unit_price'] = this.unitPrice;
     data['product_quantity'] = this.productQuantity;
     data['product_image'] = this.productImage;
     return data;

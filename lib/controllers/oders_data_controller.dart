@@ -17,11 +17,9 @@ class OrderDataController extends GetxController {
     //fetch data from local json file
     var response = await rootBundle.loadString('assets/jsons/orders_data.json');
     final data = await json.decode(response);
-    print(data.length);
     for (var item in data) {
       orderList.add(OrderModel.fromJson(item));
     }
-    print(orderList.length);
     isLoading.value = false;
   }
 }

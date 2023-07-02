@@ -3,17 +3,34 @@
   "user_name": "Michael Smith",
   "user_email": "michel2001@gmail.com",
   "user_phone": "+1234567890",
-"user_addresses":[
+  "user_profile_image": "assets/images/personalize_images/profile.jpeg",
+  "user_default_address_id": "1",
+  "user_birth_date": "16/11/2000",
+  "user_addresses":[
   {
     "address_id": "1",
-    "address_name": "Home",
-    "address": "123, Lorem Ipsum, Florida, USA",
+    "full_name": "Michael Smith",
+    "phone": "+1234567890",
+    "city": "Gainesville",
+    "state": "Florida",
+    "address": "123, Gator Street, Florida, USA",
+    "area": "Gainesville",
+    "street": "Gator Street",
+    "house": "123",
+    "landmark": "Near Gator Street",
     "address_type": "Home Address"
   },
   {
     "address_id": "2",
-    "address_name": "Office",
+    "full_name": "Michael Nick",
+    "phone": "+1234567890",
+    "city": "Orlando",
+    "state": "Florida",
     "address": "123, Lorem Ipsum, Florida, USA",
+    "area": "Orlando",
+    "street": "Deacon Street",
+    "house": "123",
+    "landmark": "Near Deacon Street",
     "address_type": "Office Address"
   }
 ]
