@@ -5,18 +5,17 @@
       "current_credit": 300
     },
     "banner_images": [
-      "https://raw.githubusercontent.com/circlebet/circlebet_flutter_app/main/assets/images/image_for_test/carousel_1.png?token=GHSAT0AAAAAACHUCPRFVZXSV7RF3RVR5O34ZJBESOA",
-      "https://raw.githubusercontent.com/circlebet/circlebet_flutter_app/main/assets/images/image_for_test/carousel_1.png?token=GHSAT0AAAAAACHUCPRFVZXSV7RF3RVR5O34ZJBESOA"
+      "https://raw.githubusercontent.com/iHabibullahBahar/dfCart/master/image_for_circle_bet/assets/images/image_for_test/carousel_1.png",
+      "https://raw.githubusercontent.com/iHabibullahBahar/dfCart/master/image_for_circle_bet/assets/images/image_for_test/carousel_1.png"
     ],
     "categories":[
       {
         "name": "Cricket",
-        "icon": "https://raw.githubusercontent.com/circlebet/circlebet_flutter_app/main/assets/images/image_for_test/cricket.png?token=GHSAT0AAAAAACHUCPREJSFUZVOPYY2RUGHWZJBE5YA"
+        "icon": "https://raw.githubusercontent.com/iHabibullahBahar/dfCart/master/image_for_circle_bet/assets/images/image_for_test/cricket.png"
       },
       {
         "name": "Football",
-        "icon": "https://raw.githubusercontent.com/circlebet/circlebet_flutter_app/main/assets/images/image_for_test/football.png?token=GHSAT0AAAAAACHUCPRFHFUIJ2R7QDCZT6I4ZJBE6PA"
-      }
+        "icon": "https://raw.githubusercontent.com/iHabibullahBahar/dfCart/master/image_for_circle_bet/assets/images/image_for_test/football.png" }
     ],
     "create_bet_with": [
       {
@@ -32,13 +31,12 @@
           {
             "name": "Bangladesh",
             "code": "BD",
-            "icon": "https://raw.githubusercontent.com/circlebet/circlebet_flutter_app/main/assets/images/image_for_test/bd_flag.png?token=GHSAT0AAAAAACHUCPRFKKQU54RIA5JUKNPOZJBE7TA"
+            "icon": "https://raw.githubusercontent.com/iHabibullahBahar/dfCart/master/image_for_circle_bet/assets/images/image_for_test/bd_flag.png"
           },
           {
             "name": "Australia",
             "code": "AUS",
-            "icon": "https://raw.githubusercontent.com/circlebet/circlebet_flutter_app/main/assets/images/image_for_test/au_flag.png?token=GHSAT0AAAAAACHUCPRFTIZDBIFGXGZKPT2EZJBFAFA"
-          }
+            "icon": "https://raw.githubusercontent.com/iHabibullahBahar/dfCart/master/image_for_circle_bet/assets/images/image_for_test/au_flag.png"}
         ],
         "matched_amount_credit": 9821,
         "matched_amount_cash": 1300,
@@ -53,14 +51,14 @@
           {
             "name": "Bangladesh",
             "code": "BD",
-            "icon": "https://raw.githubusercontent.com/circlebet/circlebet_flutter_app/main/assets/images/image_for_test/bd_flag.png?token=GHSAT0AAAAAACHUCPRFKKQU54RIA5JUKNPOZJBE7TA"
-          },
+            "icon": "https://raw.githubusercontent.com/iHabibullahBahar/dfCart/master/image_for_circle_bet/assets/images/image_for_test/bd_flag.png"},
           {
             "name": "Australia",
             "code": "AUS",
-            "icon": "https://raw.githubusercontent.com/circlebet/circlebet_flutter_app/main/assets/images/image_for_test/au_flag.png?token=GHSAT0AAAAAACHUCPRFTIZDBIFGXGZKPT2EZJBFAFA"
+            "icon": "https://raw.githubusercontent.com/iHabibullahBahar/dfCart/master/image_for_circle_bet/assets/images/image_for_test/au_flag.png"
           }
         ],
+
         "category": {
           "name": "Cricket",
           "icon": "https://circlebetau.com/assets/categories/cricket_timestamp.png"
@@ -86,24 +84,24 @@
           {
             "name": "Bangladesh",
             "code": "BD",
-            "icon": "https://raw.githubusercontent.com/circlebet/circlebet_flutter_app/main/assets/images/image_for_test/bd_flag.png?token=GHSAT0AAAAAACHUCPRFKKQU54RIA5JUKNPOZJBE7TA"
+            "icon": "https://raw.githubusercontent.com/iHabibullahBahar/dfCart/master/image_for_circle_bet/assets/images/image_for_test/bd_flag.png"
           },
           {
             "name": "Australia",
             "code": "AUS",
-            "icon": "https://raw.githubusercontent.com/circlebet/circlebet_flutter_app/main/assets/images/image_for_test/au_flag.png?token=GHSAT0AAAAAACHUCPRFTIZDBIFGXGZKPT2EZJBFAFA"
+            "icon": "https://raw.githubusercontent.com/iHabibullahBahar/dfCart/master/image_for_circle_bet/assets/images/image_for_test/au_flag.png"
           }
         ],
         "my_selected_team": {
           "name": "Australia",
           "code": "AUS",
-          "icon": "https://raw.githubusercontent.com/circlebet/circlebet_flutter_app/main/assets/images/image_for_test/au_flag.png?token=GHSAT0AAAAAACHUCPRFTIZDBIFGXGZKPT2EZJBFAFA"
+          "icon": "https://raw.githubusercontent.com/iHabibullahBahar/dfCart/master/image_for_circle_bet/assets/images/image_for_test/au_flag.png"
         },
         "visibility": "public",
         "opponents": [
           {
             "name": "Protik",
-            "image": "https://raw.githubusercontent.com/circlebet/circlebet_flutter_app/main/assets/images/image_for_test/person.png?token=GHSAT0AAAAAACHUCPRFFMU23OAPW6ES56CQZJBFBNA"
+            "image": "https://raw.githubusercontent.com/iHabibullahBahar/dfCart/master/image_for_circle_bet/assets/images/image_for_test/person.png"
           }
         ]
 
